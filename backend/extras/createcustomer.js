@@ -1,8 +1,8 @@
 require("module-alias/register");
 require("dotenv").config();
-const MongooseService = require("~/services/mongoose.service");
-const khachhangModel = require("./models/khachhang.model");
-const PasswordUtil = require("./utils/password.util");
+const MongooseService = require("../services/mongoose.service");
+const khachhangModel = require("../models/khachhang.model");
+const PasswordUtil = require("../utils/password.util");
 const { faker } = require("@faker-js/faker");
 
 const rl = require("readline").createInterface({

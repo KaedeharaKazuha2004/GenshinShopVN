@@ -1,9 +1,9 @@
 require("module-alias/register");
 require("dotenv").config();
-const MongooseService = require("~/services/mongoose.service");
-const khachhangModel = require("./models/khachhang.model");
-const nhanvienModel = require("./models/nhanvien.model");
-const PasswordUtil = require("./utils/password.util");
+const MongooseService = require("../services/mongoose.service");
+const khachhangModel = require("../models/khachhang.model");
+const nhanvienModel = require("../models/nhanvien.model");
+const PasswordUtil = require("../utils/password.util");
 
 const rl = require("readline").createInterface({
 	input: process.stdin,
