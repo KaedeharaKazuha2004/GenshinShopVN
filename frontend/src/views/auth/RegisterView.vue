@@ -1,7 +1,7 @@
 <template>
   <div class="container py-4 animate__animated animate__fadeInRight">
     <vee-form
-      class="card p-4 shadow shadow-sm"
+      class="card border-info p-4 shadow shadow-sm"
       @submit="register"
       :validation-schema="validationScheme"
       v-slot="{ errors, isSubmitting }"

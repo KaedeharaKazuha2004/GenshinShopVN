@@ -6,7 +6,7 @@
       <RouterView />
     </div>
 
-    <footer id="footer" class="py-3 bg-dark position-relative start-0 end-0 bottom-0" style="height: 60px; position: fixed;">
+    <footer id="footer" class="py-3 bg-dark position-relative start-0 end-0 bottom-0" style="height: 60px;">
       <div class="container-fluid">
         <p class="m-0 float-start text-white">
           Copyright &copy; {{ new Date().getFullYear() }} by B2207567 - Vu Duc Thang

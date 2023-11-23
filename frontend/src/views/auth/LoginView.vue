@@ -1,7 +1,7 @@
 <template>
   <div class="container py-4 animate__animated animate__fadeInLeft">
     <VeeForm
-      class="card p-4 shadow shadow-sm"
+      class="card border-info p-4 shadow shadow-sm"
       @submit="login"
       :validation-schema="validationScheme"
       v-slot="{ errors }"
