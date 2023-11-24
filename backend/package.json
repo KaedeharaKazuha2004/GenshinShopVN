@@ -6,8 +6,7 @@
 		"start": "node ./bin/www",
 		"dev": "nodemon",
 		"format": "prettier --write .",
-		"createstaff": "node ./extras/createstaff.js",
-		"createcustomer": "node ./extras/createcustomer.js"
+		"createstaff": "node ./extras/createstaff.js"
 	},
 	"_moduleAliases": {
 		"~": "./"
