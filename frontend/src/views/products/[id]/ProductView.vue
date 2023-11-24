@@ -11,13 +11,13 @@
           class="rounded border"
         />
 
-        <div class="d-flex gap-2 my-2">
+        <div class="d-flex gap-2 my-2" style="position: relative; z-index: 1; overflow-x: auto; white-space: nowrap;">
           <img
             v-for="(image, index) in product.images"
             :key="image.id"
             :src="fileService.getFileUrl(image.path)"
             :alt="image.ten"
-            style="width: 150px; aspect-ratio: 1; cursor: pointer"
+            style="width: 150px; aspect-ratio: 1; cursor: pointer; position: relative; z-index: 1;"
             class="border rounded border-2"
             :class="{
               'border-primary': imgIndex === index
